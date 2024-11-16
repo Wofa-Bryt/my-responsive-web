@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="C:\Users\wofab\OneDrive\Desktop\My_projects\landing_page\a logo.png"
+        alt="Product Logo"
+      />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#video">Video</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="features">
+        <h2>Our Features</h2>
+        <p>Discover the amazing features of our product.</p>
+        <ul>
+          <li>Feature 1: High quality</li>
+          <li>Feature 2: User-friendly</li>
+          <li>Feature 3: Affordable</li>
+        </ul>
+      </section>
+
+      <section id="video-section">
+        <h2>Watch Our Product Video</h2>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Product Video"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="contact">
+        <h2>Get in Touch</h2>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="POST"
+        >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
